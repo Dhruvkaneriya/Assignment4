@@ -39,16 +39,24 @@ namespace Assignment4
 		public int Compare(Card a, Card b)
 		{
 			// TODO: IMPLEMENT THIS
+			if (a.Suit > b.Suit)
+			{
+				return 1;
+			}
+			if (a.Suit < b.Suit)
+			{
+				return -1;
+			}
 			if (a.Value > b.Value)
 			{
 				return 1;
 			}
-			else
+			if (a.Value < b.Value)
 			{
-				return 0;
+				return -1;
 			}
-
-			throw new NotImplementedException();
+			return 0;
+			//throw new NotImplementedException();
 		}
 	}
 }
