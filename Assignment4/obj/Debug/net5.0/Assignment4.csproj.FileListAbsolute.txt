@@ -1,0 +1,16 @@
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\Assignment4.exe
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\Assignment4.deps.json
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\Assignment4.runtimeconfig.json
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\Assignment4.runtimeconfig.dev.json
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\Assignment4.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\ref\Assignment4.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\bin\Debug\net5.0\Assignment4.pdb
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.csproj.AssemblyReference.cache
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.AssemblyInfoInputs.cache
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.AssemblyInfo.cs
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.csproj.CoreCompileInputs.cache
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\ref\Assignment4.dll
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.pdb
+C:\Users\DhruvDK\Documents\Cambrian\IOT1026\Repositories\Assignment4\Assignment4\obj\Debug\net5.0\Assignment4.genruntimeconfig.cache
