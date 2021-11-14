@@ -7,6 +7,7 @@ namespace Assignment4.Task2Interface
 	interface ICarryPassengers
 	{
 		// TODO: IMPLEMENT THIS
+		string CarryPassengers();
 	}
 	class Ship
 	{
@@ -21,8 +22,18 @@ namespace Assignment4.Task2Interface
 
 		public CruiseShip(double displacement, int numPassengers) { }
 
-		//public override string ToString() => CarryPassengers();
-	}
+		public override string ToString() => CarryPassengers();
+
+        private string CarryPassengers()
+        {
+            throw new NotImplementedException();
+        }
+
+        string ICarryPassengers.CarryPassengers()
+        {
+            throw new NotImplementedException();
+        }
+    }
 
 	class BigRig
 	{
