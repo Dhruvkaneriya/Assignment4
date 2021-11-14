@@ -39,6 +39,13 @@ namespace Assignment4
 		public int Compare(Card a, Card b)
 		{
 			// TODO: IMPLEMENT THIS
+			/// <summary>
+			/// Here I am comparing card a and card b.
+			/// First I am compare card a.Suit to card b.Suit, If a.Suit is graterthan b.Suit so return a.Suit.
+			/// Then I am compare card a.Suit to card b.Suit, If b.Suit is graterthan a.Suit so return b.Suit.
+			/// Then I am compare card a.Value to card b.Value, If a.Value is graterthan b.Value so return a.Value.
+			/// Then I am compare card a.Value to card b.Suit, If a.Value is graterthan b.Value so return b.Value.
+			/// </summary>
 			if (a.Suit > b.Suit)
 			{
 				return 1;
@@ -56,7 +63,6 @@ namespace Assignment4
 				return -1;
 			}
 			return 0;
-			//throw new NotImplementedException();
 		}
 	}
 }

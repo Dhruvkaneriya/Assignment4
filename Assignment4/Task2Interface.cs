@@ -6,48 +6,70 @@ namespace Assignment4.Task2Interface
 {
 	interface ICarryPassengers
 	{
-		// TODO: IMPLEMENT THIS
-		string CarryPassengers();
+		// Here I am making CarryPassengers() method to use in different class.
+		public string CarryPassengers();
 	}
 	class Ship
 	{
-		// TODO: IMPLEMENT THIS CLASS
+		public double Displacement { get; }
 
-		//public override string ToString() => $"A ship that displaces {Displacement} tons of water"; 
+		// Ship Constructor.
+		public Ship(double displacement)
+		{
+			Displacement = displacement;
+		}
+
+		public override string ToString() => $"A ship that displaces {Displacement} tons of water"; 
 	}
 
-	class CruiseShip : ICarryPassengers
+	class CruiseShip : Ship, ICarryPassengers
 	{
-		// TODO: IMPLEMENT THIS CLASS (it should inherit from Ship as well as extend ICarryPassenger)
+		private int numPassengers;
+		
+		// CruiseShip Constructor inherits from Ship class.
+		public CruiseShip(double displacement, int numPassengers) : base(displacement)
+		{
+			this.numPassengers = numPassengers;
+		}
 
-		public CruiseShip(double displacement, int numPassengers) { }
+        public string CarryPassengers()
+        {
+			return $"{base.ToString()} and is carrying {numPassengers} passengers on a Caribbean Cruise";
+
+			//throw new NotImplementedException();
+        }
 
 		public override string ToString() => CarryPassengers();
-
-        private string CarryPassengers()
-        {
-            throw new NotImplementedException();
-        }
-
-        string ICarryPassengers.CarryPassengers()
-        {
-            throw new NotImplementedException();
-        }
-    }
+	}
 
 	class BigRig
 	{
-		// TODO: IMPLEMENT THIS CLASS
+		public int NumTires;
 
-		//public override string ToString() => $"A vehicle with {NumTires} tires"; 
+		// BigRig Constructor.
+		public BigRig(int numTires)
+		{
+			NumTires = numTires;
+		}
+
+		public override string ToString() => $"A vehicle with {NumTires} tires"; 
 	}
 
-	class TourBus : ICarryPassengers
+	class TourBus : BigRig, ICarryPassengers
 	{
-		// TODO: IMPLEMENT THIS CLASS (it should inherit from BigRig as well as extend ICarryPassenger)
+		private int numPassengers;
 
-		public TourBus(int numTires, int numPassengers) { }
+		// TourBus Constructor inherits from BigRig class.
+		public TourBus(int numTires, int numPassengers) : base(numTires)
+		{
+			this.numPassengers = numPassengers;
+		}
 
-		//public override string ToString() => CarryPassengers();
+        public string CarryPassengers()
+		{
+			return $"{base.ToString()} and is carrying {numPassengers} passengers on a cross country tour.";
+		}
+
+		public override string ToString() => CarryPassengers();
 	}
 }
